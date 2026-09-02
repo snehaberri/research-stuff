@@ -25,5 +25,5 @@ axes[1].set_title(f"SIREN fit (loss={loss:.4f})")
 for ax in axes:
     ax.axis("off")
 plt.tight_layout()
-plt.savefig("/research-stuff/sanity_check.png", dpi=120)
+plt.savefig("sanity_check.png", dpi=120)
 print("saved sanity_check.png")

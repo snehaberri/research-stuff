@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import spearmanr
 
-RUNS = Path("/INRs/research-stuff/plot_results.py")
+RUNS = Path(__file__).resolve().parent
 
 
 def load(tag):
